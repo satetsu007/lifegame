@@ -27,6 +27,7 @@ class LifeGame:
         for r in range(self.n_row):
             for c in range(self.n_col):
                 if r == 0:
+                    return n_cells
 
     def show(self):
         """
